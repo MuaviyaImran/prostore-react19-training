@@ -100,7 +100,7 @@ openssl rand -base64 32
 **Example:**
 
 ```
-NEXTAUTH_SECRET="xmVpackzg9sdkEPzJsdGse3dskUY+4ni2quxvoK6Go="
+NEXTAUTH_SECRET=
 ```
 
 #### PayPal Client ID and Secret
@@ -110,8 +110,8 @@ Create a PayPal developer account and create a new app to get the client ID and 
 **Example:**
 
 ```
-PAYPAL_CLIENT_ID="AeFIdonfA_dW_ncys8G4LiECWBI9442IT_kRV15crlmMApC6zpb5Nsd7zlxj7UWJ5FRZtx"
-PAYPAL_APP_SECRET="REdG53DEeX_ShoPawzM4vQHCYy0a554G3xXmzSxFCDcSofBBTq9VRqjs6xsNVBcbjqz--HiiGoiV"
+PAYPAL_CLIENT_ID=
+PAYPAL_APP_SECRET=
 ```
 
 #### Stripe Publishable and Secret Key
@@ -121,8 +121,8 @@ Create a Stripe account and get the publishable and secret key.
 **Example:**
 
 ```
-STRIPE_SECRET_KEY="sk_test_51QIr0IG87GyTererxmXxEeqV6wuzbmC0TpkRzabxqy3P4BpzpzDqnQaC1lZhmYg6IfNarnvpnbjjw5dsBq4afd0FXkeDriR"
-NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY="pk_test_51QIr0Ids7GyT6H7X6R5GoEA68lYDcbcC94VU0U02SMkrrrYZT2CgSMZ1h22udb5Rg1AuonXyjmAQZESLLj100W3VGVwze"
+STRIPE_SECRET_KEY=
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
 ```
 
 #### Uploadthing Settings
@@ -132,9 +132,9 @@ Sign up for an account at https://uploadthing.com/ and get the token, secret and
 **Example:**
 
 ```
-UPLOADTHING_TOKEN='tyJhcGlLZXkiOiJza19saXZlXzQ4YTE2ZjhiMDE5YmFiOgrgOWQ4MmYxMGQxZGU2NTM3YzlkZGI3YjNiZDk3MmRhNGZmNGMwMmJlOWI2Y2Q0N2UiLCJhcHBJZCI6InRyejZ2NHczNzUiLCJyZWdpb25zIjpbInNlYTEiXX0='
-UPLOADTHIUG_SECRET='gg'
-UPLOADTHING_APPID='trz6vd475'
+UPLOADTHING_TOKEN=
+UPLOADTHIUG_SECRET=
+UPLOADTHING_APPID=
 ```
 
 #### Resend API Key
@@ -144,7 +144,7 @@ Sign up for an account at https://resend.io/ and get the API key.
 **Example:**
 
 ```
-RESEND_API_KEY="re_ZnhUfrjR_QD2cDqdee3iYCrkfvPYFCYiXm"
+RESEND_API_KEY=
 ```
 
 ### Run
